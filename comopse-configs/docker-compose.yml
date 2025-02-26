@@ -4,5 +4,8 @@ services:
     tty: true
     ports:
       - '8081'
+      - '8080'
+    restart: always
+
 
 
