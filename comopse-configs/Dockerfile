@@ -7,5 +7,5 @@ WORKDIR /etc/motion/
 COPY ./motion/motion.conf /etc/motion/
 COPY ./motion/camera1.conf /etc/motion/
 
-
+CMD motion &
 
