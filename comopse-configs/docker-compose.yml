@@ -1,6 +1,7 @@
 services:
-  ubuntumotion:
-    image: ubuntu:24.04
+  motion:
+    image: custom-motion
+    build: .
     tty: true
     ports:
       - '8081'
