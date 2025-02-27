@@ -1,7 +1,7 @@
 services:
   motion:
     image: basya-motion
-    build: .
+    build: comopse-configs
     tty: true
     ports:
       - '8080:8080'
