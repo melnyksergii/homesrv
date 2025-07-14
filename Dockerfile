@@ -6,7 +6,7 @@ RUN apt-get update \
 WORKDIR /etc/motion/
 COPY motion/motion.conf /etc/motion/
 COPY motion/camera1.conf /etc/motion/
-COPY motion/motion_start.sh /usl/local/bin/motion_start.sh
+COPY motion/motion_start.sh /usr/local/bin/motion_start.sh
 
 RUN chmod +x /usr/local/bin/motion_start.sh
 
